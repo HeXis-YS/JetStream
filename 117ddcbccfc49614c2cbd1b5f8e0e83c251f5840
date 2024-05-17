@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f789bf31_b1850825",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132654
+      },
+      "writtenOn": "2024-05-17T13:57:28Z",
+      "side": 1,
+      "message": "A bunch more CLs like this will be coming along, they\u0027re all essentially doing the same:\n- Copy the jetstream benchmark out of the dedicated subfolder from webkt\n- Add the webkit LICENSE file\n- Add a README.md file\n\n\nI\u0027m now moving the custom-copied version from chromium-workloads to this dedicated repository which makes it much cleaner.\n\nPTAL",
+      "revId": "117ddcbccfc49614c2cbd1b5f8e0e83c251f5840",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
