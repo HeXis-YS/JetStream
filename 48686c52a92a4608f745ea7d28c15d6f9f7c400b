@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b4e10cb_d8d43850",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132654
+      },
+      "writtenOn": "2024-05-22T10:58:17Z",
+      "side": 1,
+      "message": "PTAL \nSetting up all branches in go/jetstream-repo to be hosted directly on https://chromium-workloads.web.app/.\n\nThis is a verbatim copy of the v2.1 branch and might be used in the future to deploy custom hacks / extensions",
+      "revId": "48686c52a92a4608f745ea7d28c15d6f9f7c400b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
