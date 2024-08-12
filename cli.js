@@ -51,9 +51,10 @@ load("./JetStreamDriver.js");
 async function runJetStream() {
     try {
         await JetStream.initialize();
-        JetStream.start();
+        await JetStream.start();
     } catch (e) {
-        console.log("JetStream2 failed: " + e);
+        console.log("JetStream3 failed: " + e);
+        console.log(e.stack);
     }
 }
 runJetStream();
