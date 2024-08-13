@@ -24,13 +24,11 @@
 */
 
 const isInBrowser = false;
-const isD8 = false;
-const isSpiderMonkey = false;
 console = {
     log: () => { }
 }
 
-testList = ["HashSet-wasm", "tsf-wasm", "quicksort-wasm", "gcc-loops-wasm", "richards-wasm"];
+testList = ["HashSet-wasm", "tsf-wasm", "quicksort-wasm", "gcc-loops-wasm", "richards-wasm", "tfjs-wasm", "argon2-wasm", "argon2-wasm-simd"];
 
 RAMification = false;
 
