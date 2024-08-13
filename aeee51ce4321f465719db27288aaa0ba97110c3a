@@ -33,6 +33,24 @@
       "message": "This is curious, even though I\u0027m an owner, I cannot +1 here. Which rights am I missing? (Note that I have never interacted with these `external` repos before, hence I\u0027m probably not a committer.)",
       "revId": "aeee51ce4321f465719db27288aaa0ba97110c3a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01059de8_4b413b56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132654
+      },
+      "writtenOn": "2024-08-13T08:38:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e57f3d63_535cee60",
+      "revId": "aeee51ce4321f465719db27288aaa0ba97110c3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
