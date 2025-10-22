@@ -62,6 +62,8 @@
             statusElement.classList.remove('loading');
             statusElement.classList.add('error');
             statusElement.innerHTML = "<h2>ERROR</h2><p>Errors were encountered during page load. Refusing to run a partial benchmark suite.</p>";
+        } else {
+            document.getElementById("status").click();
         }
     }
     </script>
