@@ -355,6 +355,9 @@ class Driver {
                 detail: this.resultsObject()
             }));
         }
+        
+        if (window.opener && !window.opener.closed)
+            window.opener.postMessage("testCompleted", "*");
     }
 
     prepareBrowserUI() {
